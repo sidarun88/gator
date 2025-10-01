@@ -4,9 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"gator/internal/database"
-	"gator/internal/rss"
 	"time"
+
+	"github.com/sidarun88/gator/internal/database"
+	"github.com/sidarun88/gator/internal/rss"
 
 	"github.com/google/uuid"
 	"github.com/lib/pq"

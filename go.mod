@@ -1,4 +1,4 @@
-module gator
+module github.com/sidarun88/gator
 
 go 1.25
 

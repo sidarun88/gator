@@ -3,8 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"gator/internal/database"
 	"strconv"
+
+	"github.com/sidarun88/gator/internal/database"
 )
 
 func handlerPosts(s *state, cmd command, user database.User) error {

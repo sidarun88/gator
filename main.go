@@ -2,10 +2,11 @@ package main
 
 import (
 	"database/sql"
-	"gator/internal/config"
-	"gator/internal/database"
 	"log"
 	"os"
+
+	"github.com/sidarun88/gator/internal/config"
+	"github.com/sidarun88/gator/internal/database"
 
 	_ "github.com/lib/pq"
 )
